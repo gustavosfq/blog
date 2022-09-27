@@ -29,7 +29,7 @@ const Layout = ({ location, title, children }) => {
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>,{" "}
         <a href="https://www.neovim.io">Neovim</a>,{" "}
-        <a href="https://www.github.com">Github</a> and love.
+        <a href="https://www.github.com">Github</a> and ❤️ .
       </footer>
     </div>
   )
