@@ -54,12 +54,12 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
-  --color-accent: #d1dce5;
+  --color-primary: #eeeeee;
+  --color-text: #eeeeee;
+  --color-text-light: #ffffff;
+  --color-heading: #ffffff;
+  --color-heading-black: #ffffff;
+  --color-accent: #121212;
 }
 
 /* HTML elements */
@@ -81,6 +81,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  background-color: var(--color-accent);
 }
 
 footer {
@@ -165,6 +166,7 @@ p {
   --x-height-multiplier: 0.35;
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
   padding: var(--spacing-0);
+  font-weight: var(--fontWeight-semibold);
 }
 
 ul,
@@ -288,6 +290,7 @@ a:focus {
 
 .bio {
   display: flex;
+  flex-direction: column;
   margin-bottom: var(--spacing-16);
 }
 

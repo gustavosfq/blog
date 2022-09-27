@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Gustavo Flores Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Gustavo Flores`,
+      summary: `Desarrollador de software, apasionado por la tecnología y la programación.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Blog de Gustavo Flores, desarrollador de software.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      instagram: "https://www.instagram.com/gugatron.x/",
     },
   },
   plugins: [
@@ -110,7 +110,7 @@ module.exports = {
         name: `Gatsby Starter Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#000000`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
