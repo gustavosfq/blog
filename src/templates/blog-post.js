@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 import Bio from "../components/bio";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const BlogPostTemplate = ({
     data: { previous, next, site, markdownRemark: post },
@@ -13,8 +13,6 @@ const BlogPostTemplate = ({
     const siteTitle = site.siteMetadata?.title || `Title`;
     const image = getImage(post.frontmatter.image);
 
-    console.log(post);
-    console.log(image);
     return (
         <Layout location={location} title={siteTitle}>
             <article
@@ -101,7 +99,6 @@ export const pageQuery = graphql`
                 image {
                     childImageSharp {
                         gatsbyImageData(
-                            width: 800
                             placeholder: BLURRED
                             formats: [AUTO, WEBP, AVIF]
                         )

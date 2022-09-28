@@ -82,6 +82,7 @@ body {
   font-size: var(--fontSize-1);
   color: var(--color-text);
   background-color: var(--color-accent);
+  overflow-y: overlay;
 }
 
 footer {
