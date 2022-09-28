@@ -2,6 +2,7 @@
 title:  Mi Nuevo Blog
 date: "2021-09-26"
 description: "mi nuevo blog, donde espero poder escribir algunas cosas sobre programacion"
+image: "../../../src/images/mi-nuevo-blog.jpg"
 ---
 
 Luego de un tiempo de receso, estoy motivado para comenzar a hacer algunos
